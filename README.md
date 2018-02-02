@@ -21,27 +21,27 @@ Code for Happy Birthday Android App
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        *Lines 22 and 23 allow this TextView to sit at the top-right of screen.*
+        *Above two lines allow this TextView to sit at the top-right of screen.*
         android:text="Hey! It's your birthday!!!"
         android:paddingRight="8dp"
         android:paddingTop="8dp"
-        *Lines 26 and 27 allow for the Textview to be shifted from the edge from 8 density pixels from the right and the top.*
+        *Above two lines allow for the Textview to be shifted from the edge from 8 density pixels from the right and the top.*
         android:textSize="18sp"
-        *Line 29 makes size of text 18 scaled pixels.*
+        *Makes size of text 18 scaled pixels.*
         android:fontFamily="sans-serif-light"
         android:textColor="#000000" />
-        *Line 33 makes colors font Black.*
+        *It makes colors font Black.*
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Don't be dramatic!"
         android:layout_alignParentRight="true"
-        *Line 39 establishes TextView on right side of screen.*
+        *It establishes TextView on right side of screen.*
         android:layout_below="@id/happy_birthday"
-        *Line 41 sits this TextView right below previously established TextView.*
+        *It sits this TextView right below previously established TextView.*
         android:textSize="18sp"
-        *Line 43 makes size of text 18 scaled pixels.*
+        *It makes size of text 18 scaled pixels.*
         android:paddingRight="8dp"
         android:fontFamily="sans-serif-light"
         android:textColor="#000000"/>
@@ -52,12 +52,12 @@ Code for Happy Birthday Android App
         android:text="From, Alejandro."
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        *Lines 53 and 54 allow TextView to sit at bottom-right of screen.*
+        *Above two lines allow TextView to sit at bottom-right of screen.*
         android:textSize="24sp"
         android:background="#000000"
-        *Line 57 makes TextView background Black.*
+        *It makes TextView background Black.*
         android:fontFamily="sans-serif-light"
         android:textColor="#FFFFFF" />
-        *Line 60 colors font White.*
+        *It colors font White.*
 
 </RelativeLayout>
